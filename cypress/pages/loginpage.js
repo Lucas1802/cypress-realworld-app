@@ -21,8 +21,8 @@ class LoginPage{
     }
 
     checkUsernameHome (checkUsername) {
-        cy.get(this.selectorList().checkUserNameField).should('contain.text', checkUsername)
         cy.url().should('eq','http://localhost:3000/')
+        cy.get(this.selectorList().checkUserNameField).should('contain.text', checkUsername)      
     }
 
     checkCredentialInvalid() {

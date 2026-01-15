@@ -1,10 +1,10 @@
 {
     "userSuccess": {
-        "username": "teste1",
-        "password": "1234"
+        "username": "Bernadine33",
+        "password": "s3cret"
     },
     "userFail": {
-        "username": "test01",
-        "password": "test123"
+        "username": "usuarioinvalido",
+        "password": "senhaerrada"
     }
-  }
+}

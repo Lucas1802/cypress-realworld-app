@@ -14,7 +14,7 @@ describe('Registro de novo usuário com sucesso', () => {
 
 describe('Tentar registrar um novo usuário com informações incompletas', () => {
 
-  it.only('Deve exibir mensagens de erro ao tentar registrar um novo usuário sem preencher todas as informações obrigatórias', () => {
+  it('Deve exibir mensagens de erro ao tentar registrar um novo usuário sem preencher todas as informações obrigatórias', () => {
       registerPage.accessRegisterPage()
       registerPage.checkRegisterInvalid()
   });
